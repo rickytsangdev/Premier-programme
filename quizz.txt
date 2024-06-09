@@ -1,0 +1,19 @@
+// --------------Quizz section : Les variables et les opérateurs--------------
+La concaténation permet d'afficher plusieurs variables et chaines de caractères à la fois.
+très utile dans la programmation et la manipulation des variables ! 
+
+Question 4 :
+Qu'affiche ce code ? 
+
+9 | 1 | une erreur |
+
+let nombreA = 5;
+let nombreB = 4;
+const resultat = 0;
+resultat = nombreA + nombreB;
+console.log(resultat);
+
+
+⚠️ attention au piège ⚠️
+
+a bien tester avec le système de débogage par exemple
