@@ -1,0 +1,25 @@
+Hey !
+
+Je vous ai concocté un petit rappel sur les opérateurs de comparaison pour que vous puissiez les retrouver n'importe quand. Je vous ai rajouté l'opérateur === qui vérifie si la valeur correspond à celle spécifiée à droite, et si le type est également le même, ainsi que l'opérateur !== qui fait la même chose pour le cas contraire.
+
+== : égal à la valeur
+
+=== : égal à la valeur et au type
+
+!= : différent de la valeur
+
+!== : différent de la valeur et du type
+
+> : supérieur
+
+< : inférieur
+
+>= : supérieur ou égal
+
+<= : inférieur ou égal
+
+Si nous prenons un exemple, voici la différence entre l'opérateur == et === :
+
+let nombre = 3;
+if(nombre == "3") // vaudra "true"
+if(nombre === "3") // vaudra "false" : car la variable nombre est de type Number, alors que nous lui demandons de vérifier s'il s'agit bien d'une chaîne de caractères qui vaut 3.
